@@ -4,7 +4,7 @@
   --title-color: hsl(218, 44%, 22%);
   --description-color: hsl(220, 15%, 55%);
 
-  --font-size: 0.9375rem;
+  --font-size: 0.9375rem; /* 15px */
   --font-family: 'Outfit', sans-serif;
 }
 
@@ -28,10 +28,9 @@ body {
 }
 
 img {
-  display: inline-block;
+  display: block;
   max-width: 100%;
-  width: 100%;
-  border-radius: .9375rem;
+  border-radius: 1rem;
 }
 
 .card {
@@ -39,41 +38,26 @@ img {
   max-width: 20rem;
   width: 100%;
   margin: 0 auto;
-  padding: 1.25rem;
-  border-radius: 1.5rem;
-}
-
-.card__img {
-  margin-bottom: 1.5rem;
+  padding: 1.25rem 1.25rem 3rem;
+  border-radius: 1rem;
 }
 
 .card__title {
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   text-align: center;
   color: var(--title-color);
 }
 
+.card__img, .card__title {
+  margin-bottom: 1rem;
+}
+
 .card__description {
-  font-size: 1rem;
+  font-size: var(--font-size);
   text-align: center;
   color: var(--description-color);
 }
 
 .card__title, .card__description {
-  margin-bottom: 1.2rem;
   padding: 0 1rem;
-}
-
-@media only screen and (min-width: 768px) {
-  .card {
-    max-width: 23rem;
-  }
-
-  .card__title {
-    font-size: 1.6rem;
-  }
-
-  .card__description {
-    font-size: 1.1rem;
-  }
 }
