@@ -30,7 +30,7 @@ body {
 img {
   display: block;
   max-width: 100%;
-  border-radius: 1rem;
+  border-radius: .65rem;
 }
 
 .card {
@@ -38,18 +38,19 @@ img {
   max-width: 20rem;
   width: 100%;
   margin: 0 auto;
-  padding: 1.25rem 1.25rem 3rem;
+  padding: 1rem 1rem 2.6rem;
   border-radius: 1rem;
 }
 
 .card__title {
-  font-size: 1.3rem;
+  font-size: 1.35rem;
   text-align: center;
   color: var(--title-color);
+  margin-bottom: 1rem;
 }
 
-.card__img, .card__title {
-  margin-bottom: 1rem;
+.card__img {
+  margin-bottom: 1.5rem;
 }
 
 .card__description {
