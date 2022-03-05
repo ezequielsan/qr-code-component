@@ -40,6 +40,7 @@ img {
   margin: 0 auto;
   padding: 1rem 1rem 2.6rem;
   border-radius: 1rem;
+  box-shadow: 4px 8px 35px rgb(0 0 0 / 10%);
 }
 
 .card__title {
